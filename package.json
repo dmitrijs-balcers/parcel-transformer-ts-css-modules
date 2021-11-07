@@ -1,15 +1,15 @@
 {
   "name": "parcel-transformer-ts-css-modules",
-  "version": "1.0.5",
+  "version": "1.0.10",
   "license": "ISC",
   "private": false,
   "main": "lib/index.js",
   "engines": {
     "node": ">= 12.0.0",
-    "parcel": "^2.0.0-beta.3.1"
+    "parcel": "2.0.0"
   },
   "dependencies": {
-    "@parcel/plugin": "2.0.0-beta.3.1",
+    "@parcel/plugin": "2.0.0",
     "typed-css-modules": "0.7.0"
   },
   "author": "Dmitrijs Balcers dmitrijs.balcers@gmail.com",
