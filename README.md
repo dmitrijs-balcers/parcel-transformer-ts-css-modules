@@ -15,8 +15,8 @@ At the root of your project, next to your `package.json`, add a `.parcelrc` file
   "extends": "@parcel/config-default",
   "transformers": {
     "*.module.css": [
-      "...",
-      "parcel-transformer-ts-css-modules"
+      "parcel-transformer-ts-css-modules",
+      "..."
     ]
   }
 }
