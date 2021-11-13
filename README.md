@@ -22,5 +22,8 @@ At the root of your project, next to your `package.json`, add a `.parcelrc` file
 }
 ```
 
+## Example
+What it does in practice you can see in this example [here](https://github.dev/dmitrijs-balcers/react-css-modules-typescript-boilerplate/tree/master/src/components).
+
 ## Contribution
 This library is open source and depends on your input. Feel free to suggest improvements and/or contribute!
