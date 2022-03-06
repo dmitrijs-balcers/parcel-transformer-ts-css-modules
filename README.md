@@ -1,7 +1,8 @@
 # parcel-transformer-ts-css-modules
 _Bridge ts with your css-modules_
 
-This transformer is going to create `.d.ts` according to your `.module.css` files,
+This transformer is going to create `.d.ts` according to your `.module.css` files using [typed-css-modules](https://www.npmjs.com/package/typed-css-modules)
+,
 so that you can reference your css in ts files without type errors.
 
 ## Installation
@@ -19,6 +20,15 @@ At the root of your project, next to your `package.json`, add a `.parcelrc` file
       "..."
     ]
   }
+}
+```
+
+## Configuration
+If you want to configure underlying ts-css-modules library, create `./tcm.config.json` file and configure it as it is described in [here](https://www.npmjs.com/package/typed-css-modules#user-content-new-dtscreatoroption).  
+For instance like this:
+```json
+{
+  "camelCase": true
 }
 ```
 
